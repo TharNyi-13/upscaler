@@ -1,0 +1,31 @@
+{
+  "name": "upscaler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "develop": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^4.20.0",
+    "@upscalerjs/default-model": "^1.0.0-beta.17",
+    "@upscalerjs/esrgan-medium": "^1.0.0-beta.13",
+    "@upscalerjs/esrgan-slim": "^1.0.0-beta.12",
+    "@upscalerjs/esrgan-thick": "^1.0.0-beta.16",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "upscaler": "^1.0.0-beta.19",
+    "winston": "^3.13.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
